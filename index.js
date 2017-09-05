@@ -5,17 +5,17 @@ function destructivelyAppendKitten(kitten) {
   return kittens
 }
 
-function destructivelyPrependKitten(array) {
-  array.unshift()
+function destructivelyPrependKitten(kitten) {
+  kittens.unshift(kitten)
   return kittens
 }
 
-function destructivelyRemoveLastKitten(kittens) {
+function destructivelyRemoveLastKitten() {
   kittens.pop()
   return kittens
 }
 
-function destructivelyRemoveFirstKitten(kittens) {
+function destructivelyRemoveFirstKitten() {
   kittens.shift()
   return kittens
 }
